@@ -1,0 +1,25 @@
+@keyframes loading {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(700px);
+    }
+}
+
+.container {
+    margin: 250px auto;
+    height: 50px;
+    width: 700px;
+    border: 5px solid skyblue;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.block {
+    height: 100%;
+    width: 30%;
+    background-color: skyblue;
+    animation: loading 1s linear infinite;
+}

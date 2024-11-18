@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, "Helvetica Light", sans-serif;
+}
+
+.item {
+    width: 400px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.item h3 {
+    margin: 5px 0 0 0;
+}
+
+.item p {
+    color: gray;
+    margin: 0;
+}
+
+.item img:hover {
+    filter: grayscale(0%);
+    transform: translateY(-5px);
+}
+
+.gallery-container {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (min-width: 960px) {
+    .container {
+        margin: 50px 100px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {
+    .container {
+        margin: 50px 300px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        margin: 50px 500px;
+    }
+}

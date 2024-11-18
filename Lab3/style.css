@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, serif;
+    margin: 50px;
+}
+
+table {
+    border-radius: 10px 10px 0 0;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    background-color: royalblue;
+    height: 45px;
+    margin: 0;
+}
+
+th:nth-child(1) {
+    border-radius: 10px 0 0 0;
+}
+th:nth-child(6) {
+    border-radius: 0 10px 0 0;
+}
+
+tr:not(:first-child) {
+    height: 70px;
+}
+
+tr:not(:first-child):hover {
+    background-color: paleturquoise;
+}
+
+tr:nth-child(odd) {
+    background-color: powderblue;
+}
+
+td {
+    padding: 15px 40px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.subtext {
+    color: gray;
+    font-weight: normal;
+}
+
+td:nth-child(3) {
+    text-align: center;
+}
+
+td:nth-child(5) {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding: 0 40px;
+    vertical-align: middle;
+}
+
+.size {
+    background-color: royalblue;
+    display: block;
+    padding: 10px 0;
+    width: 120px;
+    border-radius: 30px;
+}
+
+td:nth-child(6) {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding: 0 40px;
+    vertical-align: middle;
+}
+
+.priority {
+    display: block;
+    padding: 5px 0;
+    width: 30px;
+    border-radius: 30px;
+}
+
+.first {
+    background-color: indianred;
+}
+
+.second {
+    background-color: darkgoldenrod;
+}
+
+.third {
+    background-color: forestgreen;
+}
+
+.fourth {
+    background-color: royalblue;
+}
+
+.fifth {
+    background-color: midnightblue;
+}

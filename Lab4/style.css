@@ -1,0 +1,25 @@
+.container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigPicture {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+
+.smallPictures {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.smallPictures img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
